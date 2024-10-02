@@ -48,6 +48,7 @@ class LeafletMap {
         .catch(error => console.error("Error Loading servers:", error));
     }
 
+    
     clearLogs(){
         this.attendanceCountSC = 0;
         this.attendanceCountBA = 0;
